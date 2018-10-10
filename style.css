@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.deck {
+  list-style: none;
+  /* background-color:greenyellow; */
+  background: linear-gradient(160deg, rgb(177, 245, 52), rgba(0, 0, 0, 0.986));
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 5px;
+  box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(75, 112, 44);
+  margin: 5px;
+  text-align: center;
+  font-size: 0; 
+  float: left;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-top: 1em;
+}
+
+.flip {
+  cursor: default;
+  background-color: rgb(192, 18, 70);
+  font-size: 2em;
+  transform: rotateY(0);
+}
+
+.match {
+  background-color: rgb(193, 17, 216);
+  font-size: 2em;
+  cursor: defaul;
+
+}
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?x07olk');
+  src:  url('fonts/icomoon.eot?x07olk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?x07olk') format('truetype'),
+    url('fonts/icomoon.woff?x07olk') format('woff'),
+    url('fonts/icomoon.svg?x07olk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-spades:before {
+  content: "\e917";
+}
+.icon-lifebuoy:before {
+  content: "\e941";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-rocket:before {
+  content: "\e9a5";
+}
+.icon-fire:before {
+  content: "\e9a9";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-volume-high:before {
+  content: "\ea26";
+}
